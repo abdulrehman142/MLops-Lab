@@ -3,7 +3,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
+<<<<<<< HEAD
     return "Welcome to HousePK! — Dashboard version"
+=======
+    return "Welcome to HousePK! — Login version"
+>>>>>>> feature-login
 
 
 @app.route('/login')
