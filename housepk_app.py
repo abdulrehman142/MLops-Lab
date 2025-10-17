@@ -3,8 +3,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    # modified overlapping line
-    return "Welcome to HousePK! — Login Feature Testing"
+    return "Welcome to HousePK! — Dashboard version"
+
 
 @app.route('/login')
 def login():
